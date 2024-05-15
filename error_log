@@ -1,0 +1,131 @@
+[20-Jan-2024 03:03:10 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/ujianori/jurnal.asistentugas.com/wp-includes/update.php on line 449
+[31-Jan-2024 02:21:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/ujianori/jurnal.asistentugas.com/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/ujianori/jurnal.asistentugas.com/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/ujianori/jurnal.asistentugas.com/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/ujianori/jurnal.asistentugas.com/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/ujianori/jurnal.asistentugas.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/ujianori/jurnal.asistentugas.com/wp-admin/includes/class-wp-automatic-updater.php(976): wp_mail()
+#5 /home/ujianori/jurnal.asistentugas.com/wp-admin/includes/class-wp-automatic-updater.php(639): WP_Automatic_Updater->send_email()
+#6 /home/ujianori/jurnal.asistentugas.com/wp-admin/includes/class-wp-automatic-updater.php(606): WP_Automatic_Updater->after_core_update()
+#7 /home/ujianori/jurnal.asistentugas.com/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/ujianori/jurnal.asistentugas.com/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/ujianori/jurnal.asistentugas.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/ujianori/jurnal.asistentugas.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/ujianori/jurnal.asistentugas.com/wp-includes/update.php(292): do_action()
+#12 /home/ujianori/jurnal.asistentugas.com/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/ujianori/jurnal.asistentugas.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/ujianori/jurnal.asistentugas.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/ujianori/jurnal.asistentugas.com/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/ujianori/jurnal.asistentugas.com/wp-includes/PHPMailer/PHPMailer.php on line 874
+[23-Feb-2024 15:02:42 UTC] Cron reschedule event error for hook: wp_version_check, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[07-Mar-2024 06:48:18 UTC] PHP Fatal error:  Uncaught Error: Class "\ElementorPro\Modules\CustomCss\Module" not found in /home/websit19/jurnal.asistentugas.com/wp-content/plugins/elementor-pro/core/modules-manager.php:78
+Stack trace:
+#0 /home/websit19/jurnal.asistentugas.com/wp-content/plugins/elementor-pro/plugin.php(369): ElementorPro\Core\Modules_Manager->__construct()
+#1 /home/websit19/jurnal.asistentugas.com/wp-includes/class-wp-hook.php(324): ElementorPro\Plugin->on_elementor_init()
+#2 /home/websit19/jurnal.asistentugas.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/websit19/jurnal.asistentugas.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/websit19/jurnal.asistentugas.com/wp-content/plugins/elementor/includes/plugin.php(658): do_action()
+#5 /home/websit19/jurnal.asistentugas.com/wp-includes/class-wp-hook.php(324): Elementor\Plugin->init()
+#6 /home/websit19/jurnal.asistentugas.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#7 /home/websit19/jurnal.asistentugas.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/websit19/jurnal.asistentugas.com/wp-settings.php(643): do_action()
+#9 /home/websit19/jurnal.asistentugas.com/wp-config.php(77): require_once('/home/websit19/...')
+#10 /home/websit19/jurnal.asistentugas.com/wp-load.php(50): require_once('/home/websit19/...')
+#11 /home/websit19/jurnal.asistentugas.com/wp-blog-header.php(13): require_once('/home/websit19/...')
+#12 /home/websit19/jurnal.asistentugas.com/index.php(17): require('/home/websit19/...')
+#13 {main}
+  thrown in /home/websit19/jurnal.asistentugas.com/wp-content/plugins/elementor-pro/core/modules-manager.php on line 78
+[25-Mar-2024 04:23:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/jurnal.asistentugas.com/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/websit19/jurnal.asistentugas.com/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/jurnal.asistentugas.com/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/jurnal.asistentugas.com/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/jurnal.asistentugas.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/jurnal.asistentugas.com/wp-includes/pluggable.php(2041): wp_mail()
+#5 /home/websit19/jurnal.asistentugas.com/wp-includes/comment.php(2346): wp_notify_moderator()
+#6 /home/websit19/jurnal.asistentugas.com/wp-includes/class-wp-hook.php(326): wp_new_comment_notify_moderator()
+#7 /home/websit19/jurnal.asistentugas.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/websit19/jurnal.asistentugas.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/websit19/jurnal.asistentugas.com/wp-includes/comment.php(2320): do_action()
+#10 /home/websit19/jurnal.asistentugas.com/wp-includes/comment.php(3671): wp_new_comment()
+#11 /home/websit19/jurnal.asistentugas.com/wp-comments-post.php(25): wp_handle_comment_submission()
+#12 {main}
+  thrown in /home/websit19/jurnal.asistentugas.com/wp-includes/PHPMailer/PHPMailer.php on line 874
+[25-Mar-2024 08:32:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/jurnal.asistentugas.com/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/websit19/jurnal.asistentugas.com/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/jurnal.asistentugas.com/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/jurnal.asistentugas.com/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/jurnal.asistentugas.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/jurnal.asistentugas.com/wp-includes/pluggable.php(2041): wp_mail()
+#5 /home/websit19/jurnal.asistentugas.com/wp-includes/comment.php(2346): wp_notify_moderator()
+#6 /home/websit19/jurnal.asistentugas.com/wp-includes/class-wp-hook.php(326): wp_new_comment_notify_moderator()
+#7 /home/websit19/jurnal.asistentugas.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/websit19/jurnal.asistentugas.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/websit19/jurnal.asistentugas.com/wp-includes/comment.php(2320): do_action()
+#10 /home/websit19/jurnal.asistentugas.com/wp-includes/comment.php(3671): wp_new_comment()
+#11 /home/websit19/jurnal.asistentugas.com/wp-comments-post.php(25): wp_handle_comment_submission()
+#12 {main}
+  thrown in /home/websit19/jurnal.asistentugas.com/wp-includes/PHPMailer/PHPMailer.php on line 874
+[03-Apr-2024 07:47:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/jurnal.asistentugas.com/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/websit19/jurnal.asistentugas.com/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/jurnal.asistentugas.com/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/jurnal.asistentugas.com/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/jurnal.asistentugas.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/jurnal.asistentugas.com/wp-admin/includes/class-wp-automatic-updater.php(976): wp_mail()
+#5 /home/websit19/jurnal.asistentugas.com/wp-admin/includes/class-wp-automatic-updater.php(639): WP_Automatic_Updater->send_email()
+#6 /home/websit19/jurnal.asistentugas.com/wp-admin/includes/class-wp-automatic-updater.php(606): WP_Automatic_Updater->after_core_update()
+#7 /home/websit19/jurnal.asistentugas.com/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/websit19/jurnal.asistentugas.com/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/websit19/jurnal.asistentugas.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/websit19/jurnal.asistentugas.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/websit19/jurnal.asistentugas.com/wp-includes/update.php(292): do_action()
+#12 /home/websit19/jurnal.asistentugas.com/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/websit19/jurnal.asistentugas.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/websit19/jurnal.asistentugas.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/websit19/jurnal.asistentugas.com/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/websit19/jurnal.asistentugas.com/wp-includes/PHPMailer/PHPMailer.php on line 881
+[09-Apr-2024 21:59:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/jurnal.asistentugas.com/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/websit19/jurnal.asistentugas.com/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/jurnal.asistentugas.com/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/jurnal.asistentugas.com/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/jurnal.asistentugas.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/jurnal.asistentugas.com/wp-admin/includes/class-wp-automatic-updater.php(976): wp_mail()
+#5 /home/websit19/jurnal.asistentugas.com/wp-admin/includes/class-wp-automatic-updater.php(639): WP_Automatic_Updater->send_email()
+#6 /home/websit19/jurnal.asistentugas.com/wp-admin/includes/class-wp-automatic-updater.php(606): WP_Automatic_Updater->after_core_update()
+#7 /home/websit19/jurnal.asistentugas.com/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/websit19/jurnal.asistentugas.com/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/websit19/jurnal.asistentugas.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/websit19/jurnal.asistentugas.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/websit19/jurnal.asistentugas.com/wp-includes/update.php(292): do_action()
+#12 /home/websit19/jurnal.asistentugas.com/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/websit19/jurnal.asistentugas.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/websit19/jurnal.asistentugas.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/websit19/jurnal.asistentugas.com/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/websit19/jurnal.asistentugas.com/wp-includes/PHPMailer/PHPMailer.php on line 881
+[08-May-2024 01:30:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/jurnal.asistentugas.com/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/websit19/jurnal.asistentugas.com/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/jurnal.asistentugas.com/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/jurnal.asistentugas.com/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/jurnal.asistentugas.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/jurnal.asistentugas.com/wp-admin/includes/class-wp-automatic-updater.php(976): wp_mail()
+#5 /home/websit19/jurnal.asistentugas.com/wp-admin/includes/class-wp-automatic-updater.php(639): WP_Automatic_Updater->send_email()
+#6 /home/websit19/jurnal.asistentugas.com/wp-admin/includes/class-wp-automatic-updater.php(606): WP_Automatic_Updater->after_core_update()
+#7 /home/websit19/jurnal.asistentugas.com/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/websit19/jurnal.asistentugas.com/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/websit19/jurnal.asistentugas.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/websit19/jurnal.asistentugas.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/websit19/jurnal.asistentugas.com/wp-includes/update.php(292): do_action()
+#12 /home/websit19/jurnal.asistentugas.com/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/websit19/jurnal.asistentugas.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/websit19/jurnal.asistentugas.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/websit19/jurnal.asistentugas.com/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/websit19/jurnal.asistentugas.com/wp-includes/PHPMailer/PHPMailer.php on line 881
